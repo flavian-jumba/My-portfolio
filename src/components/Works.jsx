@@ -9,6 +9,8 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
+
+
   index,
   name,
   description,
@@ -24,6 +26,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
+
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
@@ -32,6 +35,7 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
+
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
@@ -43,6 +47,7 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+              
             </div>
           </div>
         </div>
